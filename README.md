@@ -8,3 +8,12 @@
 3. *En caso de tener todos los materiales el pedido pasara a un estatus de **EN RUTA**, si falta alguno o varios de los materiales se pasara al área de compras para que realice el pedido de los materiales faltantes, una vez que el pedido se encuentre completo finalmente pasara al estatus de **EN RUTA***
 4. *Se asigna un transportista y se cargan los materiales para el traslado del pedido*
 5. *Se hace entrega del pedido al cliente en la dirección acordada antes, el trasportista toma una foto del camión con el pedido aún cargado y la ube al sistema como evidencia de la entrega del pedido, una vez hecho esto se cambia el estatus del pedido a **Entregado**, y asi se finaliza con el proceso.*
+
+## EXPLICACIÓN DEL DIAGRAMA DE CLASES
+1. *USUARIO: Representa a los usuarios del sistema, que incluyen empleados y administradores, cada **USUARIO** tiene un nombre, email y contraseña*
+2. *PEDIDO: Representa un pedido realizado por el cliente , contiene información como el número de factura, fecha, dirección de entrega, estado y notas adicionales**
+3. *PRODUCTO: Representa los producos disponibles del sistema, cada producto tiene nombre, descripción y precio.*
+4. *CLIENTE: Representa a los clientes de la empresa, contiene información como nombre, y los datos fiscales, en este caso el rfc*
+5. *ESTADO: Define los diferentes estados que puede tener un pedido, **EN PROCESO**, **EN RUTA** y **ENTREGADO***
+
+

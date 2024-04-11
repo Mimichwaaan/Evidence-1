@@ -1,5 +1,3 @@
 # Evidence-1
 ## METODOLOGIA
 *Para abordar el proyecto de la distribuidora **HALCON** será necesario una metodología que me permita gestionar eficientemente todo el desarrollo del software, sin dejar de lado ninguno de los requerimientos del cliente pues estos son primordales para el proyecto pues sin esto no tendríamos dicho proyecto. Como necesitamos construir una app con diferentes funcionalidades yo optaria por usar la metodología **SCRUM**, optaria por dicha metodología agil porque se centra el la entrega del proyecto en sprints e incremental de dicho software, con esta metodología podemos dividir el proyecto en sprits cortos que estos son generalmente de 2 a 4 semanas y en estos podremos implementar las funcionalidades prioritarias del producto, al final de cada uno de los sprints haremos un incremento del producto que podra y debera ser revisado y probado por el cliente esto para poder tener una retroalimentación temprana por parte del cliente para poder hacer los ajustes necesarios al proyecto según las necesidades del cliente*
-
-![DIAGRAMA BPMN](/escritorio/bpmn-diagrama.jpg)

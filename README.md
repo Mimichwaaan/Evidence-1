@@ -16,4 +16,11 @@
 4. *CLIENTE: Representa a los clientes de la empresa, contiene información como nombre, y los datos fiscales, en este caso el rfc*
 5. *ESTADO: Define los diferentes estados que puede tener un pedido, **EN PROCESO**, **EN RUTA** y **ENTREGADO***
 
+## EXPLICACIÓN DEL DIAGRAMA DE ACTIVIDADES
+*En el diagrma se muestra la forma secuencial en la que las actividades ocrren desde que el **CLIENTE** realiza un pedido hasta que se hace la entrega del mismo y los procesos que se llevan a cabo en el intermedio de estas acciones*
 
+## EXPLICACIÓN DEL DIAGRAMA DE CASOS
+1. *CLIENTE: Puede ver el estado de sus pedidos*
+2. *USUARIO: Puede iniciar sesión, registrar nuevos usuarios y asignar roles a los usuarios*
+3. *ADMINISTRADOS: Tiene acceso al **DASHBOARD ADMINISTRATIVO** donde puede listar todos los pedidos, buscar pedidos por diferentes criterios, modificar o eliminar pedidos asi como ver los pedidos eliminados y poder restaurarlos de ser necesario*
+4. *DEPARTAMENTOS: Aqui se incluyen los que es tomar pedidos por parte del **DEPARTAMENTO DE VENTAS**, gestionar las comprar por parte del **DEPARTAMENTO DE COMPRAS**, poder gestionar el almacen asi como preparar los pedidos por parte del **DEPARTAMENTO DE ALMACEN** y la supervision de la distribución de los pedidos por parte del **DEPARTAMENTO DE RUTAS***

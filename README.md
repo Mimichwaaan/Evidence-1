@@ -24,3 +24,14 @@
 2. *USUARIO: Puede iniciar sesión, registrar nuevos usuarios y asignar roles a los usuarios*
 3. *ADMINISTRADOS: Tiene acceso al **DASHBOARD ADMINISTRATIVO** donde puede listar todos los pedidos, buscar pedidos por diferentes criterios, modificar o eliminar pedidos asi como ver los pedidos eliminados y poder restaurarlos de ser necesario*
 4. *DEPARTAMENTOS: Aqui se incluyen los que es tomar pedidos por parte del **DEPARTAMENTO DE VENTAS**, gestionar las comprar por parte del **DEPARTAMENTO DE COMPRAS**, poder gestionar el almacen asi como preparar los pedidos por parte del **DEPARTAMENTO DE ALMACEN** y la supervision de la distribución de los pedidos por parte del **DEPARTAMENTO DE RUTAS***
+
+## EXPLICACION DEL DIAGRAMA ER
+1. *CLIENTE: Almacena la información de los clientes como su nombre, rfc y pedidos asociados*
+2. *PEDIDO: Contiene los detalles de los pedidos realizados, como # de factura, fecha, dirección de entrega y estado*
+3. *PRODUCTO: Describe los productos disponibles con su nombre, descripcion y precio*
+4. *Compra: Registra las compras de productos incluyendo la fecha de compra, la cantidad y cual es el producto comprado*
+5. *RUTA: Contiene la información sobre las rutas de distribución de los pedidos,incluyendo la fecha de salida, la fecha de llegada, destino y pedido asociado*
+6. *FOTO_RUTA: Almacena las fotos tomadas durante la entrega del pedido al cliente*
+
+## REFLEXIÓN PERSONAL SOBRE EL EJERCICIO REALIZADO
+Me doy cuenta de que aunque los diagramas sobre todo el de clases y el diagrama er se parecen mucho me doy cuenta que tienen ciertas diferencias y que tenemos muchos mas diagramas de los cuales nos podemos apoyar para el desarrollo de un proyecto y que este se desarrolle de la manera mas optima posible en cuanto a los requerimientos que necesita el cliente, pero aun asi son procesos bastante laboriosos sobre todo cuando eres bastante inexperto en el tema incluso en algunas ocaciones puede llegar a ser un poco confuso pero esto solo se puede dominar con la practica dentro de la industria.
